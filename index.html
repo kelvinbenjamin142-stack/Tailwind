@@ -9,22 +9,22 @@
 </head>
 
 <body>
-    <header class="border border-b-slate-200 py-4">
-        <nav class="flex justify-between items-center max-w-6xl mx-auto shadow-lg">
-            <h1 class="text-2xl font-semibold">Shoe Brand</h1>
+    <header class="border border-b-slate-200 py-4 shadow-lg">
+        <nav class="flex justify-between items-center max-w-6xl mx-auto">
+            <h1 class="text-2xl font-semibold"><a href="/">Shoe Brand</a></h1>
 
             <div class="flex gap-6">
                 <a href="/">Home</a>
                 <a href="/collections/">Collection</a>
                 <a href="/fav">Favourites</a>
-                <a href="/contact">Contact Us</a>
+                <a href="/cart.html">Cart</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section>
-            <div class="flex max-w-6xl mx-auto items-center min-h-[85vh] bg-sky-100">
+        <section class="bg-sky-100">
+            <div class="flex max-w-6xl mx-auto items-center min-h-[85vh]">
                 <!-- Hero Texts -->
                 <div>
                     <h1 class="text-6xl font-bold text-slate-800">Pick Top Branded Shoes At Our Store</h1>
@@ -34,9 +34,10 @@
                     </p>
 
                     <div class="mt-16 ">
-                        <button class="py-3 px-5 bg-green-700 rounded-xl text-white mr-4">Buy Now</button>
-                        <button class="py-3 px-5 border border-green-700 rounded-xl text-green-700">Add To
-                            Favourite</button>
+                        <button class="py-3 px-5 bg-green-700 rounded-xl text-white mr-4"><a href="#">Buy
+                                Now</a></button>
+                        <button class="py-3 px-5 border border-green-700 rounded-xl text-green-700"><a href="#">Add To
+                                Favourite</a></button>
                     </div>
                 </div>
                 <!-- Hero image -->
@@ -65,8 +66,8 @@
             <!-- Grid Parent(Container) -->
             <div class="grid grid-cols-3 gap-4 max-w-6xl mx-auto">
                 <!-- Grid Child(item) -->
-                <div class="bg-slate-100 rounded-xl shadow-lg">
-                    <img class="w-80 object-cover flex items-center justify-center" src="/images/shoe2.png" alt="">
+                <div class="flex-col flex items-center justify-center bg-slate-100 rounded-xl shadow-lg">
+                    <img class="h-75" src="/images/shoe2.png" alt="">
                     <div class="px-5 pt-0 pb-6">
                         <h3 class="text-xl font-medium text-slate-700">Nike Kicks</h3>
                         <p class="text-slate-500 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
@@ -76,29 +77,14 @@
                             <p class="text-xl text-red-600 font-semibold">N34,000</p>
                             <p>Ratings: 4.5</p>
                         </div>
-                        <button class="mt-10 bg-slate-700 py-3 px-5 w-full rounded-xl text-white">Add To Cart</button>
+                        <button class="mt-10 bg-slate-700 py-3 px-5 w-full rounded-xl text-white"><a href="/cart.html">Add To Cart</a></button>
                     </div>
-
                 </div>
-                <div class="bg-slate-100 rounded-xl shadow-lg">
-                    <img class="w-80 object-cover flex items-center justify-center" src="/images/shoe3.png" alt="">
-                    <div class="px-5 pt-0 pb-6">
-                        <h3 class="text-xl font-medium text-slate-700">Nike Kicks</h3>
-                        <p class="text-slate-500 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
-                            optio?</p>
 
-                        <div class="flex justify-between mt-4">
-                            <p class="text-xl text-red-600 font-semibold">N35,000</p>
-                            <p>Ratings: 4.6</p>
-                        </div>
-                        <button class="mt-10 bg-slate-700 py-3 px-5 w-full rounded-xl text-white">Add To Cart</button>
-                    </div>
-
-                </div>
-                <div class="bg-slate-100 rounded-xl shadow-lg">
-                    <img class="w-80 object-cover flex items-center justify-center" src="/images/shoe4.png" alt="">
+                <div class="flex flex-col items-center justify-center bg-slate-100 rounded-xl shadow-lg">
+                    <img class="h-75" src="/images/shoe4.png" alt="">
                     <div class="px-5 pt-0 pb-6">
-                        <h3 class="text-xl font-medium text-slate-700">Nike Kicks</h3>
+                        <h3 class="text-xl font-medium text-slate-700">Adidas Kicks</h3>
                         <p class="text-slate-500 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
                             optio?</p>
 
@@ -106,32 +92,210 @@
                             <p class="text-xl text-red-600 font-semibold">N39,000</p>
                             <p>Ratings: 4.9</p>
                         </div>
-                        <button class="mt-10 bg-slate-700 py-3 px-5 w-full rounded-xl text-white">Add To Cart</button>
+                        <button class="mt-10 bg-slate-700 py-3 px-5 w-full rounded-xl text-white"><a href="/cart.html">Add To Cart</a></button>
                     </div>
-
                 </div>
+
+                <div class="flex flex-col items-center justify-center bg-slate-100 rounded-xl shadow-lg">
+                    <img class="h-75 w-44" src="/Images/adidas1 2.png" alt="adidas shoe">
+                    <div class="px-5 pt-0 pb-6">
+                        <h3 class="text-xl font-medium text-slate-700">Adidas Kicks</h3>
+                        <p class="text-slate-500 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                            optio?</p>
+
+                        <div class="flex justify-between mt-4">
+                            <p class="text-xl text-red-600 font-semibold">N35,000</p>
+                            <p>Ratings: 4.6</p>
+                        </div>
+                        <button class="mt-10 bg-slate-700 py-3 px-5 w-full rounded-xl text-white"><a href="/cart.html">Add To Cart</a></button>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center justify-center bg-slate-100 rounded-xl shadow-lg">
+                    <img class="h-75" src="/images/shoe3.png" alt="nike shoe">
+                    <div class="px-5 pt-0 pb-6">
+                        <h3 class="text-xl font-medium text-slate-700">Nike Kicks</h3>
+                        <p class="text-slate-500 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                            optio?</p>
+
+                        <div class="flex justify-between mt-4">
+                            <p class="text-xl text-red-600 font-semibold">N25,000</p>
+                            <p>Ratings: 3.6</p>
+                        </div>
+                        <button class="mt-10 bg-slate-700 py-3 px-5 w-full rounded-xl text-white"><a href="/cart.html">Add To Cart</a></button>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center justify-center bg-slate-100 rounded-xl shadow-lg">
+                    <img class="h-75" src="/Images/skecher1 1 1.png" alt="skecher shoe">
+                    <div class="px-5 pt-0 pb-6">
+                        <h3 class="text-xl font-medium text-slate-700">Skecher Kicks</h3>
+                        <p class="text-slate-500 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                            optio?</p>
+
+                        <div class="flex justify-between mt-4">
+                            <p class="text-xl text-red-600 font-semibold">N49,000</p>
+                            <p>Ratings: 4.9</p>
+                        </div>
+                        <button class="mt-10 bg-slate-700 py-3 px-5 w-full rounded-xl text-white"><a href="/cart.html">Add To Cart</a></button>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center justify-center bg-slate-100 rounded-xl shadow-lg">
+                    <img class="h-75" src="/Images/puma1 1 1.png" alt="puma shoe">
+                    <div class="px-5 pt-0 pb-6">
+                        <h3 class="text-xl font-medium text-slate-700">Puma Kicks</h3>
+                        <p class="text-slate-500 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                            optio?</p>
+
+                        <div class="flex justify-between mt-4">
+                            <p class="text-xl text-red-600 font-semibold">N50,000</p>
+                            <p>Ratings: 4.8</p>
+                        </div>
+                        <button class="mt-10 bg-slate-700 py-3 px-5 w-full rounded-xl text-white"><a href="/cart.html">Add To Cart</a></button>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center justify-center bg-slate-100 rounded-xl shadow-lg">
+                    <img class="h-75" src="/Images/nike1 1 1.png" alt="nike shoe">
+                    <div class="px-5 pt-0 pb-6">
+                        <h3 class="text-xl font-medium text-slate-700">Nike Kicks</h3>
+                        <p class="text-slate-500 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                            optio?</p>
+
+                        <div class="flex justify-between mt-4">
+                            <p class="text-xl text-red-600 font-semibold">N25,000</p>
+                            <p>Ratings: 3.6</p>
+                        </div>
+                        <button class="mt-10 bg-slate-700 py-3 px-5 w-full rounded-xl text-white"><a href="/cart.html">Add To Cart</a></button>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center justify-center bg-slate-100 rounded-xl shadow-lg">
+                    <img class="h-75" src="/images/adidas2 1 1.png" alt="adidas shoe">
+                    <div class="px-5 pt-0 pb-6">
+                        <h3 class="text-xl font-medium text-slate-700">Adidas Kicks</h3>
+                        <p class="text-slate-500 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                            optio?</p>
+
+                        <div class="flex justify-between mt-4">
+                            <p class="text-xl text-red-600 font-semibold">N45,000</p>
+                            <p>Ratings: 4.2</p>
+                        </div>
+                        <button class="mt-10 bg-slate-700 py-3 px-5 w-full rounded-xl text-white"><a href="/cart.html">Add To Cart</a></button>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center justify-center bg-slate-100 rounded-xl shadow-lg">
+                    <img class="h-75" src="/images/puma2 1 1.png" alt="puma shoe">
+                    <div class="px-5 pt-0 pb-6">
+                        <h3 class="text-xl font-medium text-slate-700">Puma Kicks</h3>
+                        <p class="text-slate-500 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                            optio?</p>
+
+                        <div class="flex justify-between mt-4">
+                            <p class="text-xl text-red-600 font-semibold">N55,000</p>
+                            <p>Ratings: 4.7</p>
+                        </div>
+                        <button class="mt-10 bg-slate-700 py-3 px-5 w-full rounded-xl text-white"><a href="/cart.html">Add To Cart</a></button>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center justify-center bg-slate-100 rounded-xl shadow-lg">
+                    <img class="h-75" src="/images/skecher2 1 1.png" alt="skecher shoe">
+                    <div class="px-5 pt-0 pb-6">
+                        <h3 class="text-xl font-medium text-slate-700">Skecher Kicks</h3>
+                        <p class="text-slate-500 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                            optio?</p>
+
+                        <div class="flex justify-between mt-4">
+                            <p class="text-xl text-red-600 font-semibold">N65,000</p>
+                            <p>Ratings: 4.6</p>
+                        </div>
+                        <button class="mt-10 bg-slate-700 py-3 px-5 w-full rounded-xl text-white"><a href="/cart.html">Add To Cart</a></button>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center justify-center bg-slate-100 rounded-xl shadow-lg">
+                    <img class="h-75" src="/images/puma3 1 1.png" alt="puma shoe">
+                    <div class="px-5 pt-0 pb-6">
+                        <h3 class="text-xl font-medium text-slate-700">Puma Kicks</h3>
+                        <p class="text-slate-500 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                            optio?</p>
+
+                        <div class="flex justify-between mt-4">
+                            <p class="text-xl text-red-600 font-semibold">N55,000</p>
+                            <p>Ratings: 4.9</p>
+                        </div>
+                        <button class="mt-10 bg-slate-700 py-3 px-5 w-full rounded-xl text-white"><a href="/cart.html">Add To Cart</a></button>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center justify-center bg-slate-100 rounded-xl shadow-lg">
+                    <img class="h-75" src="/images/skecher3 1 1.png" alt="skecher shoe">
+                    <div class="px-5 pt-0 pb-6">
+                        <h3 class="text-xl font-medium text-slate-700">Skecher Kicks</h3>
+                        <p class="text-slate-500 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                            optio?</p>
+
+                        <div class="flex justify-between mt-4">
+                            <p class="text-xl text-red-600 font-semibold">N38,000</p>
+                            <p>Ratings: 4.3</p>
+                        </div>
+                        <button class="mt-10 bg-slate-700 py-3 px-5 w-full rounded-xl text-white"><a href="/cart.html">Add To Cart</a></button>
+                    </div>
+                </div>
+
 
             </div>
         </section>
 
         <!-- CTA Section -->
-        <section class="flex items-center justify-between max-w-6xl mx-auto mt-10">
-           <div>
-             <div>
-                <h3 class="text-2xl font-semibold">Contact Us For More</h3>
-                <p class="text-lg">You can't find the snickers you want,hit the button below. </p>
-            </div>
+        <section class=" max-w-6xl mx-auto mt-10 py-20">
+            <div class="text-center">
+                <div class="">
+                    <h3 class="text-2xl font-semibold">Contact Us For More</h3>
+                    <p class="text-lg">You can't find the snickers you want,hit the button below. </p>
+                </div>
 
-            <div class="flex items-center justify-between max-w-6xl mx-auto mt-3">
-                <a class="rounded-xl py-3 px-5 bg-red-500 " href="/contact">Contact Us</a>
+                <div class=" mt-8">
+                    <a class="rounded-xl py-3 px-5 bg-red-500 " href="/contact.html">Contact Us</a>
+                </div>
             </div>
-           </div>
         </section>
 
 
         <!-- FOOTER -->
-        <footer class=" flex items-center max-w-6xl mx-auto mt-10">
-            <p>&copy; 2026 | Kelvin Ben. All rights reserved</p>
+        <footer class=" items-center  mt-10 py-10 bg-slate-700 text-slate-400">
+            <section class="mx-auto max-w-6xl py-5">
+                <div class="grid grid-cols-4 justify-between ">
+                    <h1 class="text-4xl font-bold"><a href="/">Shoe Brand</a></h1>
+                    <ul class="flex flex-col gap-2 text-sm">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/collection">Collection</a></li>
+                        <li><a href="/favourite">Favourite</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+
+                    <ul class="flex flex-col gap-2 text-sm">
+                        <li><a href="/">Facebook</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">X-Twitter</a></li>
+                        <li><a href="">Linkedin</a></li>
+                    </ul>
+                    <ul class="flex flex-col gap-2 text-sm">
+                        <li><a href="/">FAQ</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Help Center</a></li>
+                    </ul>
+
+                </div>
+            </section>
+
+            <section class="text-center pt-4 border-t text-sm">
+                <p>&copy; 2026 | Kelvin Ben. All rights reserved</p>
+            </section>
         </footer>
     </main>
 
